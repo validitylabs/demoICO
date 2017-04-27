@@ -1,5 +1,5 @@
 var Web3 = require("web3");
-let url = "https://micharoon.by.ether.camp:8555/sandbox/6c97f772a2";
+let url = "https://sebastianvaliditylabs.by.ether.camp:8555/sandbox/b2a6675136";
 
 module.exports = {
     networks: {
