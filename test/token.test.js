@@ -22,7 +22,7 @@ contract("Token", function (accounts) {
 
     it("has 1500000000 as its total supply", function () {
         return token.supply().then(function (supply) {
-            assert.equal(supply, 1500000000, "the initial supply must be 1500000000");
+            assert.equal(supply.toNumber(), 1500000000, "the initial supply must be 1500000000");
         })
     });
 
