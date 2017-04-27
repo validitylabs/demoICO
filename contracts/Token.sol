@@ -1,6 +1,6 @@
 pragma solidity ^0.4.9;
 
-contract token {
+contract Token {
     uint public supply;
     address public owner;
     
