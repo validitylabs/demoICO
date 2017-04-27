@@ -1,0 +1,30 @@
+{
+  "name": "demoico",
+  "version": "1.0.0",
+  "description": "demo ICO contract",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "web3": "^0.18.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test --network development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/validitylabs/demoICO.git"
+  },
+  "keywords": [
+    "solidity",
+    "training"
+  ],
+  "author": "sbuergel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/validitylabs/demoICO/issues"
+  },
+  "homepage": "https://github.com/validitylabs/demoICO#readme"
+}
