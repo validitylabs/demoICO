@@ -7,7 +7,7 @@ contract Token {
     mapping(address => uint) public balances;
     uint public price;
     
-    function token(uint _supply, uint _priceWeiPerToken) {
+    function Token(uint _supply, uint _priceWeiPerToken) {
         supply = _supply;
         price = _priceWeiPerToken;
         owner = msg.sender;
