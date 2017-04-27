@@ -14,7 +14,7 @@ contract token {
     }
     
     function buy() payable {
-        uint tokensToTransfer = msg.value * price;
+        uint tokensToTransfer = msg.value / price;
         if (tokensToTransfer > supply)
             throw;
         balances[msg.sender] = tokensToTransfer;
