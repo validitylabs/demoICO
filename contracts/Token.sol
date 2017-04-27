@@ -32,6 +32,6 @@ contract Token {
         if (msg.sender != owner)
             throw;
         
-        msg.sender.send(this.balance);
+        bool res = msg.sender.send(this.balance);
     }
 }

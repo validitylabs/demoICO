@@ -14,6 +14,8 @@ contract("Token", function (accounts) {
 
     it("has " + accounts[0] + " as owner", function () {
         console.log(token.address);
+        console.log(accounts);
+        
         return token.owner()
             .then(function (owner) {
                 assert.equal(owner, accounts[0], "the owner must be the " + accounts[0]);
