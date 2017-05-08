@@ -17,7 +17,7 @@ contract Token {
         uint tokensToTransfer = msg.value / price;
         if (tokensToTransfer > supply)
             throw;
-        balances[msg.sender] = tokensToTransfer;
+        balances[msg.sender] += tokensToTransfer;
         supply -= tokensToTransfer;
     }
     
